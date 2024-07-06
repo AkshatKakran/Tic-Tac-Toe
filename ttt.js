@@ -75,6 +75,7 @@ const enableBtn = () =>{
 
 const showWinner = (winner) =>{
     msg.innerText = `${winner}  Wins!`;
+    msg.style.color = "#D3A32A";
     msgContainer.classList.remove("hide");
     disableBtn();
 
