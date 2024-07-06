@@ -55,6 +55,7 @@ gameBtn.forEach((btn) => {
 
 const gameDraw = () => {
     msg.innerText = `Draw!`;
+    msg.style.color = "#D3A32A";
     msgContainer.classList.remove("hide");
     disableBtn();
 }
